@@ -1,0 +1,103 @@
+/*css file*/
+/*
+ * Author: Anne Barrat
+ * Assignment: PHP Web App for Perl, Python and PHP Class Fall 2016 UMass Lowell
+ */
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    background-color: white;
+	overflow-x: hidden;
+}
+.container .personal_greeting {
+	margin: -19px 0px 20px 0px;
+	font-weight: bold;
+	font-size: 1em;
+	color: green;
+	
+}
+
+footer {
+    padding: 30px 0;
+}
+
+/*h groups*/
+h1 {
+font-size: 66px;
+margin-top: -25px;
+
+}
+
+h2 {
+	color: #256F86;
+	
+}
+h3 {
+font-weight: bold;
+color: #256F86;
+}
+
+h4 {
+	font-weight: bold;
+	text-align: center;
+}
+
+/*subtitle with the main header on index.php and home.php*/
+ #header_subtitle {
+ font-size: 24px; 
+ font-style: italic; 
+ font-weight: 400;
+ }
+
+/*consistent extra styling for the forms in the site*/
+form {
+	text-align: center;
+	background-color: #fff;
+    padding: 10px;
+	border: 1px solid #256F86;
+	border-radius: 5px; 	
+	height: auto;
+}
+
+form .error {
+	color:#BD442E;
+}
+
+form input {
+    margin: 3px 4px;
+    padding:3px;
+    border:2px solid #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+form input:focus {
+    background-color: lightblue;
+}
+
+.row .col-md-8 .img-responsive.img-rounded { /*the picture on the index and home page*/
+	margin-right: 0px;
+	
+}
+
+.container .row #welcome_back {
+	padding:20px 20px 30px 20px;
+    border:2px solid #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.btn.btn-default {
+	background-color: #C1C1AE;
+	color: white;
+}
+
+.btn.btn-default:hover {
+  background-color: white;
+  color: #C1C1AE;
+
+}
+
+@media(min-width:768px) {
+    body {
+        padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    }
+}
